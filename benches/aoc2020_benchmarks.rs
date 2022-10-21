@@ -1,4 +1,4 @@
-use aoc2020::{problems::day1::Day1, solve_seq};
+use aoc2020::solve_seq;
 use paste::paste;
 
 use aoc2020::problems::*;
@@ -8,7 +8,8 @@ macro_rules! bench_problems {
     { $c: ident, $($days:literal),* } => {
         $(
             paste! {
-                $c.bench_function("day 1", |b| {
+                use aoc2020::problems::[<day $days>]::[<Day $days>];
+                $c.bench_function(concat!("day ", $days), |b| {
                     b.iter(|| [<Day $days>]::solve(black_box([<Day $days>]::PROBLEM_INPUT)))
                 });
             }
@@ -17,7 +18,7 @@ macro_rules! bench_problems {
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
-    bench_problems! {c, 1}
+    bench_problems! {c, 1, 2}
     c.bench_function("day seq", |b| b.iter(|| solve_seq()));
 }
 
