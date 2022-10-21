@@ -24,5 +24,9 @@ pub trait Solution: Sync {
 }
 
 pub fn print_answer<T: Debug>(day: u8, answer: (T, T)) {
+    #[cfg(not(feature = "print_err"))]
     println!("Answer for day {:?} is {:?}", day, answer);
+
+    #[cfg(feature = "print_err")]
+    eprintln!("Answer for day {:?} is {:?}", day, answer);
 }

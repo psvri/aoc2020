@@ -18,3 +18,6 @@ harness = false
 
 [profile.bench]
 lto = true
+
+[features]
+print_err = []
