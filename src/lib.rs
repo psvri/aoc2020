@@ -12,7 +12,7 @@ macro_rules! import_days {
     };
 }
 
-import_days! {1, 2, 3}
+import_days! {1, 2, 3, 4}
 
 macro_rules! seq_solve {
     { $($days:literal),* } => {
@@ -25,5 +25,5 @@ macro_rules! seq_solve {
 }
 
 pub fn solve_seq() {
-    seq_solve! {1, 2, 3};
+    seq_solve! {1, 2, 3, 4};
 }

@@ -11,7 +11,7 @@ macro_rules! mod_days {
     };
 }
 
-mod_days! {1, 2, 3}
+mod_days! {1, 2, 3, 4}
 
 pub trait Solution: Sync {
     type Answer: Debug;

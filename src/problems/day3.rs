@@ -1,7 +1,6 @@
 use super::Solution;
 
 const TREE: u8 = '#' as u8;
-const OPEN_SQUARE: u8 = '.' as u8;
 
 #[derive(Default)]
 pub struct Day3 {}

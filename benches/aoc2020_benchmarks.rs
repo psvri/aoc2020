@@ -18,7 +18,7 @@ macro_rules! bench_problems {
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
-    bench_problems! {c, 1, 2, 3}
+    bench_problems! {c, 1, 2, 3, 4}
     c.bench_function("day seq", |b| b.iter(|| solve_seq()));
 }
 
