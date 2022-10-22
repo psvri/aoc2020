@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666419941122,
+  "lastUpdate": 1666435937467,
   "repoUrl": "https://github.com/psvri/aoc2020",
   "entries": {
     "Benchmark": [
@@ -125,6 +125,60 @@ window.BENCHMARK_DATA = {
             "name": "day seq",
             "value": 1283528,
             "range": "± 2471",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "psvrishabh@gmail.com",
+            "name": "psvri",
+            "username": "psvri"
+          },
+          "committer": {
+            "email": "psvrishabh@gmail.com",
+            "name": "psvri",
+            "username": "psvri"
+          },
+          "distinct": true,
+          "id": "158467b789b75a2c2364f97ef33ec350aeaba872",
+          "message": "Day 4 solution",
+          "timestamp": "2022-10-22T16:20:07+05:30",
+          "tree_id": "00f717210b7b2bd39e2561b26e83a06d5e5872e6",
+          "url": "https://github.com/psvri/aoc2020/commit/158467b789b75a2c2364f97ef33ec350aeaba872"
+        },
+        "date": 1666435936760,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "day 1",
+            "value": 872201,
+            "range": "± 7347",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day 2",
+            "value": 103335,
+            "range": "± 314",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day 3",
+            "value": 18897,
+            "range": "± 75",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day 4",
+            "value": 220476,
+            "range": "± 734",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day seq",
+            "value": 1299464,
+            "range": "± 5264",
             "unit": "ns/iter"
           }
         ]
