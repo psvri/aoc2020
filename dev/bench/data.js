@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666435937467,
+  "lastUpdate": 1666461604791,
   "repoUrl": "https://github.com/psvri/aoc2020",
   "entries": {
     "Benchmark": [
@@ -179,6 +179,72 @@ window.BENCHMARK_DATA = {
             "name": "day seq",
             "value": 1299464,
             "range": "± 5264",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "psvrishabh@gmail.com",
+            "name": "psvri",
+            "username": "psvri"
+          },
+          "committer": {
+            "email": "psvrishabh@gmail.com",
+            "name": "psvri",
+            "username": "psvri"
+          },
+          "distinct": true,
+          "id": "e7cd39d13fa6f2f6af376e68014fe1803b666669",
+          "message": "Minor fix",
+          "timestamp": "2022-10-22T23:27:43+05:30",
+          "tree_id": "c9add295e3bb849493faeb0ece2041b80cf11264",
+          "url": "https://github.com/psvri/aoc2020/commit/e7cd39d13fa6f2f6af376e68014fe1803b666669"
+        },
+        "date": 1666461604296,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "day 1",
+            "value": 886788,
+            "range": "± 959",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day 2",
+            "value": 114556,
+            "range": "± 231",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day 3",
+            "value": 19113,
+            "range": "± 30",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day 4",
+            "value": 257622,
+            "range": "± 910",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day 5",
+            "value": 88120,
+            "range": "± 568",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day 6",
+            "value": 1200965,
+            "range": "± 1398",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "day seq",
+            "value": 2786827,
+            "range": "± 121333",
             "unit": "ns/iter"
           }
         ]
